@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="rock.png">
+    <title>JS - 8 - Rock, Paper, Scissors</title>
+    <link href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="web-container">
+
+        <div class="header">
+            <!-- <h3 class="new-game-btn"> NEW GAME</h3> -->
+        </div>
+        <div class="game-container">
+            <div class="user-container">
+                <div class="sign-container">
+                    <div class="sign">
+                        <img class="rockImg rotateRight" src="rock.png">
+                        <img class="paperImg" src="paper.png">
+                        <img class="scissorsImg" src="scrissor.png">
+                    </div>
+                </div>
+                <div class="choice-container">
+                    <div class="sign-choices">
+                        <input type="radio" class="gamechoices" name="game"  id="rockbox" value="rock">
+                        <input type="radio" class="gamechoices" name="game"  id="paperbox" value="paper">
+                        <input type="radio" class="gamechoices" name="game"  id="scrissorbox" value="scrissors">
+                        <label for ="rockbox"><img class="signsImg rockbox rotateRight" id="rock" src="rock.png"></label>
+                        <label for ="paperbox"><img class="signsImg paperbox" id="paper" src="paper.png"></label>
+                        <label for ="scrissorbox"><img class="signsImg scrissorbox" id="scrissors" src="scrissor.png"></label>
+                    </div>
+                    <div class="confirm-btn-container">
+                        <span class="confirm-btn">
+                            Confirm
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="random-container">
+                <div class="sign-container">
+                    <div class="sign">
+                        <img class="rockRandom" src="rock.png">
+                        <img class="paperRandom rotateRight" src="paper.png">
+                        <img class="scissorsRandom rotateRight" src="scrissor.png">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="result-container">
+
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
